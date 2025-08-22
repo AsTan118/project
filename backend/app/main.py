@@ -12,7 +12,7 @@ from .rag import ingest_pdf, retrieve, generate_answer
 app = FastAPI(title="Local RAG API", version="0.1")
 
 
-# CORS for local dev
+# CORS for local dev Hi
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
