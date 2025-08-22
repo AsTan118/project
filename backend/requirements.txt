@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pdfplumber
+langchain-core
+langchain-text-splitters
+langchain-ollama
+langchain-chroma
+pydantic
+python-multipart
